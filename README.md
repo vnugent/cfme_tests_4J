@@ -1,4 +1,5 @@
-Documentation project to help Java developers who are new to Python and [cmfe_tests](https://github.com/RedHatQE/cfme_tests/) to get started.  Whenever possible same Python variable, function and class names are used with additional Java flavors added.
+Documentation project to help Java developers who are new to Python and [cmfe_tests](https://github.com/RedHatQE/cfme_tests/) to get started.  Whenever possible same Python variable, function and class names are used. Additional Java flavors such as intefaces and decorative classes are added to illustrate the framework's requirements that Provider author must fulfill.
+
 ## Key Python concepts (kind of foreign in Java)
 - ***kwargs
 - lambda 
