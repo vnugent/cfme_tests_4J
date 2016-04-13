@@ -1,4 +1,4 @@
-Documentation project to help Java developers who are new to Python and [cmfe_tests](https://github.com/RedHatQE/cfme_tests/) to get started.  Whenever possible the same variable, class, function names are used with additional Java flavor added/
+Documentation project to help Java developers who are new to Python and [cmfe_tests](https://github.com/RedHatQE/cfme_tests/) to get started.  Whenever possible the same variable, class, function names are used with additional Java flavors added/
 ## Key Python concepts
 - kwargs
 - lambda 
@@ -20,3 +20,6 @@ click on Middleware -> Providers menu
 fill in name, port number
 click Add button
 ```
+
+Hawkular Provider walk-through
+[Hawkular Provider](https://github.com/vnugent/cfme_tests_4J/blob/master/src/org/miq/test/middleware/HawkularProvider.java)
