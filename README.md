@@ -14,7 +14,7 @@ Core components of cfme_tests framework:
    - Concrete Provider implementation defines UI navigation paths (how to reach to the provider from the main menu bar), mapping from business-values to form/UI widgets as well as domain specific queries such as number of VMs (Cloud Providers) or pod count (Openshift/Kubernetes)
 
 ## Why fixtures?
-Fixtures allows you to write test with high level of abstraction
+Fixtures allow you to write test with high level of abstraction
 ```
 provider = get_crud('hawkular')
 provider.create()
@@ -26,5 +26,5 @@ fill in name, port number
 click Add button
 ```
 
-## Hawkular Provider walk-through
+## Hawkular Provider walk-through TBD
 [Hawkular Provider](https://github.com/vnugent/cfme_tests_4J/blob/master/src/org/miq/test/middleware/HawkularProvider.java)
