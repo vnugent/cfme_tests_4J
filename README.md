@@ -7,10 +7,10 @@ Documentation project to help Java developers who are new to Python and [cmfe_te
 
 ## Overview
 Core components of cfme_tests framework:
-- low-level ui fixtures and navigation
+- Low-level ui fixtures and navigation
 - Base [Provider](https://github.com/RedHatQE/cfme_tests/blob/master/cfme/common/provider.py) fixture and existing Provider implementations (RHEV, Openstack, Openshift) follow the "Template method" design pattern.  
-- Bbase Provider defines CRUD operation flows and logic to fill CRUD form.
-- Concrete Provider implementation defines UI navigation paths (how to reach to the provider from the main menus), mapping from business-values to form/UI widgets as well as domain specific queries such as number of VMs (Cloud Providers) or pod count (Openshift/Kubernetes)
+   - Base Provider defines CRUD operation flows and logic to fill CRUD form.
+   - Concrete Provider implementation defines UI navigation paths (how to reach to the provider from the main menu bar), mapping from business-values to form/UI widgets as well as domain specific queries such as number of VMs (Cloud Providers) or pod count (Openshift/Kubernetes)
 
 ## Why fixtures?
 Fixtures allows you to write test with high level of abstraction
